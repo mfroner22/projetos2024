@@ -105,10 +105,8 @@ public class Exercicio04 {
                 + "\nCodigo :" + codpessoaMaismagra + ""
                 + "\nPeso :" + pesoPessoaMaismagra + ""
                 + "\nAltura :" + alturaPessoaMaismagra);
-        System.out.println("Media de pesos : "+(pesoTotal/cont)+"  Kgs");
-        System.out.println("Media de altura :"+ (alturaTotal/cont));
-        
-        
+        System.out.println("Media de pesos  : " + (pesoTotal / cont) + "  Kgs");
+        System.out.println("Media de altura : " + (alturaTotal / cont)+ " Metros");
 
     }
 }
