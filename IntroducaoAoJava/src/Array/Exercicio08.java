@@ -98,13 +98,10 @@ public class Exercicio08 {
                 } else {
                     System.out.println("Quantidade insuficiente para fazer a venda");
                     return;
-
                 }
-
             }
-            System.out.println("Produto nao foi encontrado!");
         }
-
+        System.out.println("Produto nao foi encontrado!");
     }
 
     public void cadastrarProduto() {
@@ -167,9 +164,9 @@ public class Exercicio08 {
     }
 
     public void preencherListas() {
-        produtos[0] = "Arroz";
-        produtos[1] = "Feijão";
-        produtos[2] = "Erva";
+        produtos[0] = "arroz";
+        produtos[1] = "feijao";
+        produtos[2] = "erva";
         precos[0] = 12.05;
         precos[1] = 16.55;
         precos[2] = 11.12;
